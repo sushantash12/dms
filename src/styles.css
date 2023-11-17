@@ -1,0 +1,49 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+    
+    html, body { height: 100%; font-family: 'Quicksand', sans-serif !important;}
+body { 
+    margin: 0; 
+    background: url('/assets/pattern.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #91b7c2 !important;
+}
+
+button{
+    background-color: #005066 !important;
+}
+
+.nav-item{
+    cursor: pointer;
+}
+
+.mdc-text-field, .mat-mdc-input-element{
+    background: none !important;
+    color: #91b7c2 !important;
+}
+
+mat-label, .mat-mdc-form-field-required-marker, label{
+    color: #91b7c2 !important;
+}
+
+.mdc-checkbox .mdc-checkbox__native-control:enabled:not(:checked):not(:indeterminate):not([data-indeterminate=true])~.mdc-checkbox__background {
+    border-width: 2px;
+    border-color: #91b7c2;
+    color: #91b7c2;
+}
+
+.modal-header{
+    background-color: #102B3F !important;
+    color: #fff !important;
+    padding: 1em !important;
+}
+
+.modal-body{
+    padding: 1em !important;
+}
+
+h5{
+    font-size: 1em !important;
+    margin: unset !important;
+}

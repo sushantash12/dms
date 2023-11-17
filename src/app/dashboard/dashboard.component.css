@@ -1,0 +1,66 @@
+.mat-mdc-icon-button{
+    --mdc-icon-button-state-layer-size: 1.5em;
+    margin-right: 0.5em;
+}
+
+.mat-icon{
+    width: 0.6em;
+    height: 0.6em;
+    display: flex;
+    color: #91b7c2;
+    align-items: center;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.mat-tree-node{
+    margin-left: 1em;
+    color: #91b7c2;
+    font-size: 1.3em;
+    font-weight: 400;
+    min-height: 2em;
+}
+
+.mat-tree{
+    background: none;
+}
+
+#plus-icon line:first-child {
+    transition: transform 0.3s ease;
+  }
+  
+  #minus-icon line:first-child {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease;
+  }
+
+  .dynamic-container {
+    padding: 20px;
+    background-color: #00506686;
+    backdrop-filter: blur(3px);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-height: 100vh;
+    overflow-y: auto;
+  }
+
+  .selected-node {
+    background: url("../../assets/pattern.svg");
+  }
+
+  .ffs{
+    padding : 0.5em;
+    border-radius: 0.5em;
+    cursor: pointer;
+  }
+
+  .mat-tree-node:not(:last-child),
+.mat-nested-tree-node:not(:last-child) {
+  margin-bottom: 5px; /* Adjust as needed */
+}
+  
+  @media (max-width: 600px) {
+    .dynamic-container {
+      width: 100%;
+    }
+  }

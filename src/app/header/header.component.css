@@ -1,0 +1,15 @@
+.active{
+    background-color: #00607a;
+    color: white;
+    border-radius: 0.5em;
+}
+
+.disabled-btn{
+    pointer-events: none !important;
+    color: gray !important;
+    cursor: not-allowed !important;
+}
+
+.nav-link{
+    color: #fff;
+}
